@@ -25,7 +25,7 @@ const generateRtmToken = (req, resp) => {
   const appCertificate = "5CFd2fd1755d40ecb72977518be15d3b";
   const account = req.query.account || "test_user_id";
 
-  const expirationTimeInSeconds = 3600;
+  const expirationTimeInSeconds = 360000;
   const currentTimestamp = Math.floor(Date.now() / 1000);
   const privilegeExpiredTs = currentTimestamp + expirationTimeInSeconds;
 
