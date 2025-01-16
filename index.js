@@ -6,4 +6,5 @@ module.exports = {
     RtcRole: require('./src/RtcTokenBuilder2').Role,
     RtcTokenBuilder: require('./src/RtcTokenBuilder2').RtcTokenBuilder,
     RtmTokenBuilder: require('./src/RtmTokenBuilder2').RtmTokenBuilder
-}
+} 
+//main file to generate rtm token
